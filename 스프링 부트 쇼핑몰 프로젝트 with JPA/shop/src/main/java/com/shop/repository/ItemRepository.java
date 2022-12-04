@@ -18,6 +18,9 @@ public interface ItemRepository extends JpaRepository<Item, Long> {
     List<Item> findByPriceLessThanOrderByPriceDesc(Integer price);
 
     @Query("select i from Item i where i.itemDetail like %:itemDetail% order by i.price desc")
-    List<Item> findByItemDetali(@Param("itemDetail") String itemDetail);
+    List<Item> findByItemDetail(@Param("itemDetail") String itemDetail);
+
+    @Query(value = "select * from Item i where i.item_detail like %:itemDetail% order by i.price desc", nativeQuery = true)
+    List<Item> findByItemDetailByNative(@Param("itemDetail") String itemDetail);
 
 }
