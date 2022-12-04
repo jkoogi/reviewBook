@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.querydsl.QPageRequest;
 import org.springframework.test.context.TestPropertySource;
@@ -183,7 +184,7 @@ class ItemRepositoryTest {
             booleanBuilder.and(item.itemSellStatus.eq(ItemSellStatus.SELL));
         }
 
-        Pageable pageable = QPageRequest.of(0, 5);
+        Pageable pageable = PageRequest.of(0, 5);
         Page<Item> itemPagingResult = itemRepository.findAll(booleanBuilder, pageable);
         System.out.println("total element : " + itemPagingResult.getTotalElements());
 
