@@ -12,7 +12,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
-import java.util.logging.SocketHandler;
 
 @SpringBootTest
 @Transactional
