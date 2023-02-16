@@ -158,7 +158,7 @@ class ItemRepositoryTest {
             item.setItemNm("테스트 상품" + i);
             item.setPrice(10000 + i);
             item.setItemDetail("테스트 상품 상세 설명" + i);
-            item.setItemSellStatus(ItemSellStatus.SOULD_OUT);
+            item.setItemSellStatus(ItemSellStatus.SOLD_OUT);
             item.setStockNumber(0);
             item.setRegTime(LocalDateTime.now());
             item.setUpdateTime(LocalDateTime.now());
