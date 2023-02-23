@@ -1,4 +1,4 @@
-package com.shop.service;
+package com.shop.dto;
 
 import com.shop.entity.OrderItem;
 import lombok.Getter;
