@@ -6,7 +6,7 @@ import com.shop.entity.CartItem;
 import com.shop.entity.Item;
 import com.shop.entity.Member;
 import com.shop.repository.CartItemRepository;
-import com.shop.repository.CartService;
+import com.shop.service.CartService;
 import com.shop.repository.ItemRepository;
 import com.shop.repository.MemberRepository;
 import org.junit.jupiter.api.DisplayName;

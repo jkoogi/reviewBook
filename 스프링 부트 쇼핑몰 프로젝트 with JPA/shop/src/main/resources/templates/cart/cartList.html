@@ -80,7 +80,7 @@
   </style>
 </th:block>
 
-<div layout:fragment=""content" class="content-mg">
+<div layout:fragment="content" class="content-mg">
 
   <h2 class="mb-4">
     장바구니 목록
@@ -104,7 +104,7 @@
       </tr>
       </thead>
       <tbody>
-      <tr th:each="cartItem : ${cartItem}">
+      <tr th:each="cartItem : ${cartItems}">
         <td class="text-center align-middle">
           <input type="checkbox" name="cartChkBox"
                  th:value="${cartItem.cartItemId}">
