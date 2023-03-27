@@ -4,6 +4,7 @@
     <title>Page Title</title>
 <script>
 /*
+  [선언식]
   함수명(매개변수, ...){
   	// 명령
   }
@@ -14,10 +15,22 @@ function fnSayHello(){
     return;
 }
 
+/*
+  [표현식]
+  변수 = function(매개변수, ...){
+    // 명령
+  }
+*/
+const fnMinusNumbers = function(pNum1, pNum2){
+    return pNum1 - pNum2;
+}
+
 </script>
 <body>
 
     <button onclick="fnSayHello()"> 눌러주세요 </button>
+	<br>
+	<button onclick="console.log(fnMinusNumbers(3, 5))">3 - 5 = ?</button>
 
 </body>
 </html>
