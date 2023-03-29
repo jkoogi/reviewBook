@@ -25,6 +25,19 @@ const fnMinusNumbers = function(pNum1, pNum2){
     return pNum1 - pNum2;
 }
 
+
+/*
+  [호이스팅]
+*/
+fnSayHello1();
+function fnSayHello1(){
+    console.log("선언식 함수 호출");
+}
+
+fnSayHello2();
+const fnSayHello2 = function(){
+    console.log("표현식 함수선언 변수 호출");
+}
 </script>
 <body>
 
