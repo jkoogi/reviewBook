@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+</head>
+<script>
+    // fnMyFunction();
+    // function fnMyFunction(){
+    //     var apple = 5;
+    //     console.log(apple); // 5 출력
+    // }
+    // console.log(apple); //오류! Uncaught ReferenceError: apple is not defined
+
+    // var apple = 3;
+    // {
+    //     var apple = 5;      // var 선언 변수는 블록 스코프가 아니어서 재선언 가능
+    //     console.log(apple); // 5 출력
+    // }
+    // console.log(apple);     // 3 대신 5 출력
+
+    // {
+    //     let apple = 3;
+    //     console.log(apple);     // 3 출력
+    //     apple = 5;              // let 변수 재할당 가능
+    //     console.log(apple);     // 5 출력
+    //     let apple = 7;          // let 변수 재선언 불가 - Identifier 'apple' has already been declared 
+
+    //     const car;              // const 선언, 할당 동시 설정 필요
+    //     const carname = "하이브리드카";
+    //     console.log(carname);   // '하이브리드카' 출력
+    //     carname = "디젤카";      // const 재할당 불가 - 불변성
+
+    // }
+    // console.log(apple);     // 블록내 let 변수 참조 불가
+    // console.log(carname);   // 블록내 const 변수 참조 불가
+
+    let apple = 3;
+    const carname = "하이브리드카";
+    console.log('사과: '+apple+', 자동차: '+carname);     // 이전 스타일
+    console.log(`사과: ${apple}, 자동차: ${carname}`);  // ES6 스타일(템플릿 리터럴)
+</script>
+<body>
+
+</body>
+</html>
