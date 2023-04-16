@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>arrow_function</title>
+</head>
+<body>
+    <button onclick="
+        console.log(fnSayHello());
+        console.log(`1+2 = `, fnPlusNubers1(1,2));
+        console.log(`2+3 = `, fnPlusNubers2(2,3));
+        console.log(`3+4 = `, fnPlusNubers3(3,4));
+        console.log(`4+1 = `, fnPlusNubers4(4));
+    " id="clickme">화살표 함수 실행!</button>
+    <script>
+        const fnPlusNubers1 = function(pNum1, pNum2){
+            return pNum1 + pNum2;
+        }
+        const fnPlusNubers2 = (pNum1, pNum2) => {
+            return pNum1 + pNum2;
+        }
+        const fnPlusNubers3 = (pNum1, pNum2) => pNum1 + pNum2;
+        const fnPlusNubers4 = (pNum1) => pNum1 + 1;
+        const fnSayHello = () => '안녕하세요!';
+    </script>
+</body>
+</html>
