@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>callback function</title>
+</head>
+<body>
+    <script>
+        // 매개변수 전달 시 함수 선언과 정의 함께 작성 : 비동기처리의 완료 로직 적용
+        fnFunctionB("콜박함수실행!", function fnFunctionA(pNumA){
+            console.log("pNumA : " + pNumA);
+        });
+
+        // 콜백함수를 호출할 함수
+        function fnFunctionB(pNumB, fnCallBack){
+            fnCallBack(pNumB);
+        }
+
+    </script>
+</body>
+</html>
