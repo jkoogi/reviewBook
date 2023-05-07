@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>json</title>
+</head>
+<body>
+    <script>
+        // fetch 사용예시
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(pResponse => pResponse.json())
+        .then(pJSON => console.log(pJSON));
+        
+    </script>
+</body>
+</html>
