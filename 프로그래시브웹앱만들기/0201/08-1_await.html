@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>await</title>
+</head>
+<body>
+    <script>
+        // Promise 비동기 기능 동기처리
+        function fnProductReady(pNum, pTime){
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    console.log(pNum);
+                    resolve("상품이 성공적으로 배송되었습니다.");
+                }, pTime);
+            });
+        }
+        
+        // strRet = await fnProductReady(1, 2000);
+        // strRet = fnProductReady(1, 2000);
+        // console.log(strRet);
+        async function fnDoAsyncFunc(){
+            strRet = await fnProductReady(1, 2000);
+            console.log(strRet);
+        }
+        fnDoAsyncFunc();
+    </script>
+    
+</body>
+</html>
