@@ -1,7 +1,14 @@
 // 캐시 제목과 캐시할 파일 선언
-const sCacheName = 'hello-pwa'; // 캐시 제목 선언
+// const sCacheName = 'hello-pwa'; // 캐시 제목 선언
+// const aFilesToCache = [         // 캐시할 파일 선언
+//     './', './index.html', './manifest.json', './images/hello-pwa.png'
+// ];
+// 미션코딩 - 캐시변경하고 서비스워커 다시 등록하기
+const sCacheName = 'hello-pwa-v1'; // 캐시 제목 변경 *
 const aFilesToCache = [         // 캐시할 파일 선언
-    './', './index.html', './manifest.json', './images/hello-pwa.png'
+    './', './index.html', './manifest.json', './images/hello-pwa.png',
+    './images/icons/favicon.ico',               //파비콘 이미지 캐시 추가 *
+    './images/icons/android-chrome-192x192.png' //아이콘 이미지 캐시 추가 *
 ];
 
 // 서비스 워커 설치하고 캐시파일 저장
