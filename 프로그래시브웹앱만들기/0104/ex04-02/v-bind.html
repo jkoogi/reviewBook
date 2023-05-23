@@ -14,8 +14,7 @@
         <!-- v-bind 안에서도 자바스크립트를 사용할 수 있으므로 변수와 문장을 연결 -->
         <h1 v-bind:class="sColorName + '_style'">안녕하세요!</h1>
         <!-- 콜론(:) 앞은 생략 가능 -->
-        <!-- <input:value="sDate"/> 화면깨짐 -->
-        <input v-bind:value="sDate"/>
+        <input :value="sDate"/>
     </div>
     <script>
         let app = new Vue({
