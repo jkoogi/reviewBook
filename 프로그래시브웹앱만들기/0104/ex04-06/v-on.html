@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>v-on</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>{{sTitle}}</h1>
+        <!-- 버튼을 누르면 fnChangeTitle 메서드로 이벤트 핸들러 수정 -->
+        <button v-on:click="fnChangeTitle">눌러주세요.</button>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                // sTitle의 초기값 설정
+                sTitle:'안녕하세요!'
+            },
+            methods:{
+                // 버튼을 눌렀을 때 sTitle의 제목값 변경
+                fnChangeTitle(){
+                    // this는 Vue 객체의 인스턴스를 가리킴
+                    this.sTitle = 'Hello!'
+                }
+            }
+        })
+    </script>
+</body>
+</html>
