@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>v-if</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>{{ bFlag }}</h1>
+        <!-- v-if, v-else 로 직접 bFlag 데이터에 접근해 조건 판단 -->
+        <p v-if="bFlag == true">앞면!</p>
+        <p v-else>뒷면!</p>
+    </div>
+    <script>
+        var app = new Vue({
+            el:'#app',
+            data:{
+                // 난수(0~1) 생성 후 0.5보다 크면 true, 아니면 false 지정
+                bFlag:Math.random() > 0.5
+            }
+        })
+    </script>
+</body>
+</html>
