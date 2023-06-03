@@ -21,27 +21,21 @@
         -->
         <ul v-for="item in customers">
             <li>
-                번호 : 0
+                번호 : {{item.no}}
             </li>
-            <p>이름 : 홍길동</p>
-            <p>나이 : 27</p>
-            <li>
-            번호 : 1
-            </li>
-            <p>이름 : 이순신</p>
-            <p>나이 : 30</p>
-            <li>
-            번호 : 2
-            </li>
-            <p>이름 : 김유신</p>
-            <p>나이 : 40</p>
+            <p>이름 : {{item.name}}</p>
+            <p>나이 : {{item.age}}</p>
         </ul>
     </div>
     <script>
         var main = new Vue({
             el:'#main',
             data:{
-                [{no:0, name:"홍길동", age:27}, {}]
+                customers : [
+                    {no:0, name:"홍길동", age:27}, 
+                    {no:1, name:"이순신", age:30}, 
+                    {no:2, name:"김유신", age:40}, 
+                ]
             }
         })
     </script>
