@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="KO">
+<head>
+    <meta charset="UTF-8">
+    <title>computed</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="main">
+        <p>원본 문장 : "{{ sOriginalMessage }}"</p>
+        <p>대분자로 변환된 문장 : "{{ fnUpperCaseMsg }}"</p>
+    </div>
+    <script>
+        new Vue({
+            el:'#main',
+            // data는 머스태시 안에 넣을 값이 간달할 때 사용
+            data:{
+                sOriginalMessage: 'How are you?'
+            },
+            computed:{
+                // sOriginalMessage의 데이터를 모두 대문자로 변환
+                // 이때 데이터에 접근하기 위해 this 사용
+                fnUpperCaseMsg: function(){
+                    return this.sOriginalMessage.toUpperCase();
+                }
+            }
+        })
+    </script>
+    
+</body>
+</html>
