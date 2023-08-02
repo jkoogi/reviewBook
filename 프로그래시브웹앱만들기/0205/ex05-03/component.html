@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>component</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+</head>
+<body>
+    <div id="main">
+        <my-element></my-element>
+    </div>
+</body>
+
+<script>
+    // my-element 엘리멘트용 컴포넌트 등록
+    Vue.component('my-element',{
+        // 컴포넌트의 data 속성은 반드시 함수로 정의!
+        data: function(){
+            return {
+                strHello: '안녕하세요',
+            }
+        },
+        // 템플릿은 화면에 표시할 엘리멘트 구조를 정의
+        template: `<h1>{{strHello}}</h1>`
+    });
+    new Vue({
+        el:'#main',
+    });
+</script>
+</html>
