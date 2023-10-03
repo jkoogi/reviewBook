@@ -12,3 +12,5 @@
 ### [Pair](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/)
 ### [unzip](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/unzip.html)
 ### [reflection - ::](https://kotlinlang.org/docs/reflection.html#jvm-dependency)
+  * https://woovictory.github.io/2019/08/08/Kotlin-Double-Ref/
+### [확장 프로퍼티](https://kotlinlang.org/docs/extensions.html#extension-properties)
