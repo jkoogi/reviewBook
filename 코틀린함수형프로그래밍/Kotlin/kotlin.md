@@ -3,6 +3,7 @@
 ## 제어문
 ### [for](https://kotlinlang.org/docs/control-flow.html#for-loops)
 ### [when](https://kotlinlang.org/docs/kotlin-tour-control-flow.html#when)
+ - case 제어문에 대응되는 문법으로 보임
 
 ## 함수
 ### [function](https://kotlinlang.org/docs/basic-syntax.html#functions)
