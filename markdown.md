@@ -25,9 +25,7 @@
 - [버튼(상단이동)](#버튼상단이동)
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 줄바꿈
 
@@ -94,9 +92,7 @@
 
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 주석
 
@@ -109,9 +105,7 @@
 안보이지?
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 글머리 : 1~6 레벨
 
@@ -132,9 +126,7 @@
 ###### > 참조
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 인용
 
@@ -147,20 +139,18 @@
 >> second blockqute
 >>> third blockqute
 
-* 인용문 출처
+* 인용문 출처 : 안되나?
 ```text
 <cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997 {: .small}
 <small><cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997</small>
+<small><i><cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997</i></small>  
 ```
 <cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997 {: .small}  
 <small><cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997</small>  
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+<small><i><cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997</i></small>  
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 순서목록
 
@@ -197,9 +187,7 @@
 3. 목록
    
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 항목목록
  - 글머리 기호: *, +, - 지원
@@ -217,9 +205,7 @@
     + 초록
       
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 인라인(Inline) 코드 블록
 
@@ -231,9 +217,7 @@ su 명령어
 `$ sudo su`
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 코드 블록
  - 문법강조시 해당 키워드 설정 : java...
@@ -252,9 +236,7 @@ public void main(){
 ```
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 수평선
  * [***,  - - -, ---] 동일한 수평선 표시됨
@@ -281,9 +263,7 @@ public void main(){
 * 선공백수평
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 체크리스트 (Check List)
  * 표기상태만 표시
@@ -295,9 +275,7 @@ public void main(){
 - [ ] incomplete item
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 글자 서식
 
@@ -337,9 +315,7 @@ ___tripple underscores 볼드+이텔릭체___
 <u>underline - 밑줄</u>
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 링크 생성
 * [보여지는 글](링크 "설명")
@@ -352,9 +328,7 @@ ___tripple underscores 볼드+이텔릭체___
 [네이버](https://naver.com/)
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 목차 생성
 * [표시할 텍스트](#정리된글머리)
@@ -377,9 +351,7 @@ ___tripple underscores 볼드+이텔릭체___
 [ > 참조](#--참조)  
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 다른 파일 열기
 
@@ -389,9 +361,7 @@ ___tripple underscores 볼드+이텔릭체___
 [리드미 파일](./README.md "리드미파일")
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 이미지 파일 불러오기
 * ![대체 텍스트](경로, "설명")
@@ -403,9 +373,7 @@ ___tripple underscores 볼드+이텔릭체___
 ![이미지가 없어서 보이는 대체택스트](./image/img.png)  
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 이미지에 링크 걸기
 * [![대체 텍스트](이미지 경로, "설명")](URL 링크 "설명")
@@ -415,9 +383,7 @@ ___tripple underscores 볼드+이텔릭체___
 [![하늘 사진](./image/sky.jpg "DSR")](https://zoosso.tistory.com/)
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 상대참조 방식으로 링크 처리
 * [보여지는 글자] [id]
@@ -437,9 +403,7 @@ ___tripple underscores 볼드+이텔릭체___
 [네이버]: https://naver.com/
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 자동링크
 * URL, e-Mail 주소는 자동링크 생성
@@ -452,9 +416,7 @@ https://naver.com/
 `https://naver.com/`
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 수식
 * 처음과 뒤에 $ (달러 기호)로 감싼다.
@@ -472,9 +434,7 @@ $x^2_1 + 2x_2 = 3$
 $$(\alpha + \beta)^2 = \alpha^2 + 2\alpha\beta+\beta^2 $$
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 표 (Table)
 * 제목 행 구분을 위해 -(hyphen/dash) 3개 필요
@@ -513,9 +473,7 @@ A (기본 왼쪽 정렬) | B (가운데 정렬) | C (오른쪽 정렬)
 `4` | 가나다라마바사 | abcdef
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 토글 (Toggle)
 
@@ -557,9 +515,7 @@ A (기본 왼쪽 정렬) | B (가운데 정렬) | C (오른쪽 정렬)
 </details>
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 글자색 및 하이라이트 처리
 
@@ -579,9 +535,7 @@ A (기본 왼쪽 정렬) | B (가운데 정렬) | C (오른쪽 정렬)
 <span style="color:purple">보라</span>  
 
 ---
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 # 버튼(상단이동)
 * 테그
@@ -590,9 +544,7 @@ A (기본 왼쪽 정렬) | B (가운데 정렬) | C (오른쪽 정렬)
 <a href="#" class="btn--success">위로</a>
 </p>
 ```
-<p align="right">
-<a href="#" class="btn--success">위로</a>
-</p>
+<p align="right"><a href="#" class="btn--success">위로</a></p>
 
 * 목차 링크
 ```text
@@ -603,3 +555,84 @@ A (기본 왼쪽 정렬) | B (가운데 정렬) | C (오른쪽 정렬)
 <p align="right">
 [kotlin] <a href="https://kotlinlang.org/docs/reflection.html#jvm-dependency"> [:: - reflection] </a>
 </p>
+
+---
+<p align="right"><a href="#" class="btn--success">위로</a></p>
+
+# 마크다운 확장? 동작안함
+https://kramdown.gettalong.org/syntax.html#inline-attribute-lists
+
+```
+Left aligned text.
+{: .text-left}
+
+Center aligned text.
+{: .text-center}
+
+Right aligned text.
+{: .text-right}
+
+Justified text.
+{: .text-justify}
+
+No wrap text.
+{: .text-nowrap}
+
+Lowercased text
+{: .text-lowercase}
+
+Uppercased text
+{: .text-uppercase}
+
+Capitalized text
+{: .text-capitalize}
+
+This *is*{:.underline} some `code`{:#id}{:.class}.
+A [link](test.html){:rel='something'} and some **tools**{:.tools}.
+
+{::comment}
+This text is completely ignored by kramdown - a comment in the text.
+{:/comment}
+
+Do you see {::comment}this text{:/comment}?
+{::comment}some other comment{:/}
+
+{::options key="val" /}
+
+```
+
+This *is*{:.underline} some `code`{:#id}{:.class}.
+A [link](test.html){:rel='something'} and some **tools**{:.tools}.
+
+{::comment}
+This text is completely ignored by kramdown - a comment in the text.
+{:/comment}
+
+Do you see {::comment}this text{:/comment}?
+{::comment}some other comment{:/}
+
+{::options key="val" /}
+
+Left aligned text.
+{: .text-left}
+
+Center aligned text.
+{: .text-center}
+
+Right aligned text.
+{: .text-right}
+
+Justified text.
+{: .text-justify}
+
+No wrap text.
+{: .text-nowrap}
+
+Lowercased text
+{: .text-lowercase}
+
+Uppercased text
+{: .text-uppercase}
+
+Capitalized text
+{: .text-capitalize}
